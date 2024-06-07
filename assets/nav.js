@@ -1,0 +1,1 @@
+(async function(){document.querySelector(".nav").innerHTML = await fetch("/assets/nav.html").then(res => res.text())})();
